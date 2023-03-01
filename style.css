@@ -1,0 +1,109 @@
+-/* Colors and fonts */
+body {
+  background-color: white;
+}
+
+h1,h2 {
+  font-family: 'Lora';
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #3C2A21;
+}
+
+h2 {
+  font-weight:600;
+  font-size: 25px;
+  color: #815B5B;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bolder;
+  font-family: 'Lora';
+}
+
+p {
+  font-family: 'roboto';
+  font-size: 17px;
+  font-weight: 500px;
+  color: black;
+}
+
+/* Custom design with class */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 350px;
+  }
+}
+
+.card-white {
+background-color: white;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+border-radius: 10px;
+margin: 25px 0px;
+text-align: center;
+}
+
+.img-circle {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.btn-brown {
+  background-color: #815B5B;
+  padding: 10px 15px;
+  opacity: 0.8;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-brown:hover {
+  background-color: #815B5B;
+  opacity: 1;
+  transition: background-color 0.4s ease;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding:  15px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #3C2A21;
+  opacity: 0.8;
+}
+
+.list-inline i:hover {
+  color: #3C2A21;
+  opacity: 1;
+}
+
+#introduction p{
+margin-bottom: 32px;
+}
